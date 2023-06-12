@@ -36,62 +36,51 @@
         .navbar-text {
         font-size: 15px; 
         }
-        .image-container {
-    position: relative;
-    width: 1500px; 
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.6; 
-  }
-  
-  .text-container {
-    position: absolute;
-    top: 50%;
-    left: 43%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(242, 207, 227, 0.8); 
-    padding: 40px;
-    color: rgb(16, 14, 14);
-    font-size: 24px; 
-    font-family: "Mulish", sans-serif; 
-    width: 100%;
-    text-align: center;
-    font-weight: lighter
-  }
-  .bottom-text {
-    font-family: "Mulish", sans-serif;
-    text-align: center;
-    margin-top: 20px;
-  }
-  .description {
-    margin: 50px;
+        
+    h1, h2, h3 {
+      font-size: 18px;
+      font-family: 'Mulish', sans-serif;
+    }
+    p {
+      font-size: 14px;
+      font-family: 'Mulish', sans-serif;
+      font-weight: lighter;
+    }
+    .header {
+    margin-bottom: 60px;
     font-size: 18px;
-    color: #676464;
+    color: #000000;
     font-family: "Mulish", sans-serif;
     text-align: center;
   }
-  .description2 {
-    margin: 50px;
-    font-size: 18px;
-    color: #676464;
-    font-family: "Mulish", sans-serif;
-    text-align: center;
-  }
-  .description3 {
-    margin: 50px;
-    font-size: 18px;
-    color: #676464;
-    font-family: "Mulish", sans-serif;
-    text-align: center;
-  }
+ 
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-right: 0px;
+    }
+    .address {
+      flex: 1;
+      margin-right: -300px;
+      margin-left: 280px;
+    }
+    .map {
+      flex: 1;
+      margin-left: -90px;
+    }
+    .hours {
+      margin-top: 82px;
+      margin-left: 280px;
+      margin-right: 170px;
+    }
+    .contact {
+      margin-top: 40px;
+      margin-right: 280px;
+      
+    }
+        
   .description4 {
     margin: 110px;
   }
@@ -104,28 +93,14 @@
     font-family: "Mulish", sans-serif;
     text-decoration: none;
     position: relative;
-    top: 20px; 
-    left: 465px;
+    top: 60px; 
+    left: 532px;
   }
   .btn:hover {
   background-color: white;
   color: rgb(0, 0, 0);
 }
-  .footer {
-  color: #282626;
-  font-family: "Mulish", sans-serif;
-  font-size: 13px;
-  font-weight: lighter;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.footer p {
-  margin: 5px 0;
-}
+  
     </style>
     
 
@@ -143,7 +118,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">À PROPOS</a>
+            <a class="nav-link" href="index.html">À PROPOS</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="services.html">SERVICES</a>
@@ -155,39 +130,50 @@
             <a class="nav-link" href="rendezvous1.html">RENDEZ-VOUS</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="nousjoindre.html">NOUS JOINDRE</a>
+            <a class="nav-link active" aria-current="page" href="nousjoindre.html">NOUS JOINDRE</a>
             </li>
         </ul>
         </div>
     </div>
     </nav>
-    
-    <div class="image-container">
-        <img src="https://classpass.com/blog/wp-content/uploads/2023/03/shutterstock_700343857-scaled.jpg">
-        <div class="text-container">
-            <p>Découvrez l'art des cils, où le charme rencontre la perfection.</p>
-            
-      </div>
-
+    <body>
     </div>
-    <p class="description">
-        Chez Le Charme des Cils, nous sommes profondément conscients de la valeur du charme qui réside dans chaque regard. Notre mission est de vous offrir une expérience chaleureuse et attentionnée qui vise à révéler votre beauté naturelle à travers des cils somptueux.
+    <p class="header">
+        NOUS JOINDRE
     </p>
   </div>
+          <div class="contact-info">
+            <div class="address">
+              <h3>Adresse</h3>
+              <p>123 Rue de l'Aiglon, Gatineau, Canada</p>
 
-</div>
-<p class="description2">
-    Nous accordons une importance inégalée à chaque détail. Chaque cil est traité avec une délicatesse et une précision méticuleuses, car nous savons que c'est ce qui crée un résultat impeccable qui exprime votre élégance individuelle.
-</p>
-</div>
+            </div>
+            <div class="map">
+              <!-- Replace the iframe source URL with your own map embed code -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5653.541248644856!2d-75.72816768711979!3d45.43688330812917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0458ac1b8439%3A0x535c7aeeea38eb77!2s123%20Rue%20de%20l'Aiglon%2C%20Gatineau%2C%20Canada!5e0!3m2!1sen!2sus!4v1628765067682!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="contact-info">
+            <div class="hours">
+              <h3>Heures d'ouverture</h3>
+              <p>Lundi - Vendredi: 9h00 - 18h00</p>
+              <p>Samedi: 10h00 - 16h00</p>
+              <p>Dimanche: Fermé</p>
+            </div>
+            <div class="contact">
+              <h3>Contact</h3>
+              <p>Téléphone: 123-456-7890</p>
+              <p>Email: info@lecharmedescils.com</p>
+            </div>
+          
+      </body>    
+    
 
-</div>
-<p class="description3">
-    Laissez-nous prendre soin de vous et vous faire vivre une expérience exceptionnelle.
-</p>
-</div>
+    </div>
 
-<a href="rendezvous1.html" class="btn">Prendre rendez-vous</a>
+    <a href="rendezvous1.html" class="btn">Prendre rendez-vous</a>
+          
+    </div>
       
 </div>
 <p class="description4">
@@ -195,16 +181,7 @@
 </p>
 </div>
     
-<footer>
-    <div class="footer">
-      <div class="row">
-        <div class="col-md-6">
-          <p>123-456-7890</p>
-          <p>123 Rue de l'Aiglon, Gatineau, Canada</p>
-        </div>
-      </div>
-    </div>
-  </footer>   
+
     
     
                 
